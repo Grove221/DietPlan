@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Diet</string>
+    <string name="monday">Monday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="no_internet_connection">No Internet \n Connection</string>
+    <string name="something_went_wrong">Something went worng,\n Please Try later. </string>
+    <string name="time_for">Time For</string>
+
+
+</resources>

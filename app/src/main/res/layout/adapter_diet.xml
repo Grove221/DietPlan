@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Monday"
+        android:layout_marginStart="@dimen/value_16"
+        android:layout_marginTop="@dimen/value_8"
+        android:layout_marginBottom="@dimen/value_8"
+        android:textSize="@dimen/textsize_20"
+        android:textStyle="bold"
+        android:id="@+id/tvDay"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDay"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:id="@+id/recyDays"/>
+
+</RelativeLayout>
